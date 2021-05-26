@@ -16,8 +16,8 @@ const products = [
     },
     {
         _id: '2',
-        name: 'Airphone jjjjjjjjjjjjjjjjjjjwireless blutooth headphones',
-        image: '/images/3.jpg',
+        name: 'Airnes',
+        image: '/images/5.jpg',
         description:
             'lorem jxvdvdvv',
         brand: 'Apple',
@@ -30,8 +30,8 @@ const products = [
     },
     {
         _id: '3',
-        name: 'Airphone jjjjjjjjjjjjjjjjjjjwireless blutooth headphones',
-        image: '/images/1.jpg',
+        name: ' blutooth headp',
+        image: '/images/2.jpg',
         description:
             'lorem jxvdvdvv',
         brand: 'Apple',
@@ -44,7 +44,7 @@ const products = [
     },
     {
         _id: '4',
-        name: 'Airphone jjjjjjjjjjjjjjjjjjjwireless blutooth headphones',
+        name: 'Airphone jjjjjjjjjjjjjs',
         image: '/images/4.jpg',
         description:
             'lorem jxvdvdvv',
@@ -58,7 +58,7 @@ const products = [
     },
     {
         _id: '5',
-        name: 'Airphone jjjjjjjjjjjjjjjjjjjwireless blutooth headphones',
+        name: ' headphones',
         image: '/images/5.jpg',
         description:
             'lorem jxvdvdvv',
@@ -72,8 +72,8 @@ const products = [
     },
     {
         _id: '6',
-        name: 'Airphone jjjjjjjjjjjjjjjjjjjwireless blutooth headphones',
-        image: '/images/6.jpg',
+        name: 'Airphone headphones',
+        image: '/images/2.jpg',
         description:
             'lorem jxvdvdvv',
         brand: 'Apple',
