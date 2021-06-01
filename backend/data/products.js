@@ -1,7 +1,7 @@
 const products = [
 
     {
-        _id: '1',
+
         name: 'Airphone wireless blutooth headphones',
         image: '/images/airprods.jpg',
         description:
@@ -15,7 +15,7 @@ const products = [
 
     },
     {
-        _id: '2',
+
         name: 'Airnes',
         image: '/images/5.jpg',
         description:
@@ -29,7 +29,7 @@ const products = [
 
     },
     {
-        _id: '3',
+
         name: ' blutooth headp',
         image: '/images/2.jpg',
         description:
@@ -43,7 +43,7 @@ const products = [
 
     },
     {
-        _id: '4',
+
         name: 'Airphone jjjjjjjjjjjjjs',
         image: '/images/4.jpg',
         description:
@@ -57,7 +57,7 @@ const products = [
 
     },
     {
-        _id: '5',
+
         name: ' headphones',
         image: '/images/5.jpg',
         description:
@@ -71,7 +71,7 @@ const products = [
 
     },
     {
-        _id: '6',
+
         name: 'Airphone headphones',
         image: '/images/2.jpg',
         description:
