@@ -2,13 +2,13 @@ const products = [
 
     {
 
-        name: 'Airphone wireless blutooth headphones',
+        name: '1Airphone wireless blutooth headphones',
         image: '/images/airprods.jpg',
         description:
-            'lorem jxvdvdvv',
+            'De Microfoon Windkap - Microfoon - Cover - Plopkap - Cap - Windshield - 70x60mm - Zwart - met een beetje angst besteld ( kwaliteit ) maar blijkt onterecht . Weer een tevreden klant',
         brand: 'Apple',
         category: 'Electronics',
-        price: 88.5,
+        price: 87.5,
         countInStock: 10,
         rating: 4.5,
         numReviews: 4,
