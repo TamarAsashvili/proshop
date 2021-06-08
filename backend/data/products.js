@@ -17,7 +17,7 @@ const products = [
     {
 
         name: 'Airnes',
-        image: '/images/5.jpg',
+        image: '/images/1.jpg',
         description:
             'lorem jxvdvdvv',
         brand: 'Apple',
