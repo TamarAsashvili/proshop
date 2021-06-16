@@ -45,9 +45,9 @@ const ProfileScreen = ({ location, history }) => {
 
     }
 
-    return (
-        <FormContainer>
-            <h1>Sing Up</h1>
+    return <Row>
+        <Col md={3}>
+            <h2>user profile</h2>
             {message && <Message variant='danger'>{message}</Message>}
             {error && <Message variant='danger'>{error}</Message>}
             {loading && <Loader />}
@@ -102,18 +102,16 @@ const ProfileScreen = ({ location, history }) => {
                 </Form.Group>
 
                 <Button type='submit' variant='primary' >
-                    Register
+                    update
                 </Button>
             </Form>
-            <Row className='py-3'
-            >
-                <Col>
-                    Have an Account? <Link to={redirect ? `/login?redirect=${redirect}` : '/login'}>Login</Link>
-                </Col>
+        </Col>
+        <Col md={9}>
+            <h2>
 
-            </Row>
-        </FormContainer>
-    )
+            </h2>
+        </Col>
+    </Row>
 }
 
 export default ProfileScreen
