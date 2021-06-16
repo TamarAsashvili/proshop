@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react'
-import { Link } from 'react-router-dom'
 import { Form, Button, Row, Col } from 'react-bootstrap'
 import { useDispatch, useSelector } from 'react-redux'
 import Message from '../components/Message'
@@ -16,10 +15,10 @@ const ProfileScreen = ({ location, history }) => {
     const dispatch = useDispatch()
 
     const userDetails = useSelector(state => state.userDetails)
-    const { loading, error, user } = userRegister
+    const { loading, error, user } = userDetails
 
     const userLogin = useSelector(state => state.userLogin)
-    const { userInfo } = userRegister
+    const { userInfo } = userLogin
 
     useEffect(() => {
         if (!userInfo) {
@@ -33,7 +32,7 @@ const ProfileScreen = ({ location, history }) => {
 
             }
         }
-    }, [dispatch, history, userInfo])
+    }, [dispatch, history, userInfo, user])
 
     const submitHandler = (e) => {
         e.preventDefault()
