@@ -29,7 +29,6 @@ const orderSchema = mongoose.Schema(
         paymentMethod: {
             type: String,
             required: true,
-
         },
         paymentResult: {
             id: { type: String },
@@ -41,25 +40,21 @@ const orderSchema = mongoose.Schema(
             type: Number,
             required: true,
             default: 0.0,
-
         },
         shippingPrice: {
             type: Number,
             required: true,
             default: 0.0,
-
         },
         totalPrice: {
             type: Number,
             required: true,
             default: 0.0,
-
         },
         isPaid: {
             type: Boolean,
             required: true,
             default: false,
-
         },
         paidAt: {
             type: Date,
@@ -77,7 +72,6 @@ const orderSchema = mongoose.Schema(
         timestamps: true,
     }
 )
-
 
 const Order = mongoose.model('Order', orderSchema)
 

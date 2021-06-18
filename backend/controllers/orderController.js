@@ -14,10 +14,11 @@ const addOrderItems = asyncHandler(async (req, res) => {
         itemsPrice,
         taxPrice,
         shippingPrice,
-        totalPrice
+        totalPrice,
 
     } = req.body
-    if (orderItems && orderItems.lenght === 0) {
+
+    if (orderItems && orderItems.length === 0) {
         res.status(400)
         throw new Error('No order Items')
         return
@@ -30,7 +31,7 @@ const addOrderItems = asyncHandler(async (req, res) => {
             itemsPrice,
             taxPrice,
             shippingPrice,
-            totalPrice
+            totalPrice,
         })
 
         const createdOrder = await order.save()
@@ -39,5 +40,5 @@ const addOrderItems = asyncHandler(async (req, res) => {
 })
 
 export {
-    addOrderItems
+    addOrderItems,
 }
