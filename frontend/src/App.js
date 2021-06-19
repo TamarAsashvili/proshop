@@ -22,7 +22,7 @@ const App = () => {
                 <Container>
 
                     <Route path='/login' component={LoginScreen} />
-                    <Route path='/prder/:id' component={OrderScreen} />
+                    <Route path='/order/:id' component={OrderScreen} />
                     <Route path='/placeorder' component={PlaceOrderScreen} />
                     <Route path='/register' component={RegisterScreen} />
                     <Route path='/payment' component={PaymentScreen} />
