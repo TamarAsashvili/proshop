@@ -4,6 +4,7 @@ import { useDispatch, useSelector } from 'react-redux'
 import { Row, Col, Image, ListGroup, Card, Button, Form } from 'react-bootstrap'
 import Rating from '../components/Rating'
 import Loader from '../components/Loader'
+import Meta from '../components/Meta'
 import Message from '../components/Message'
 import { listProductDetails, createProductReview } from '../actions/productActions'
 import { PRODUCT_CREATE_REVIEW_RESET } from '../constants/productConstants'
@@ -62,8 +63,9 @@ const ProductScreen = ({ history, match }) => {
                     ? <Message variant='danger'>{error}</Message>
                     : (
                         <>
+                            <Meta title={product.name} />
                             <Row>
-                                <Col md={3}>
+                                <Col md={6}>
                                     <Image src={product.image} alt={product.name} fluid />
                                 </Col>
                                 <Col md={3}>
