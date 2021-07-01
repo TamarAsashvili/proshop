@@ -1,3 +1,8 @@
+:root {
+  --clr-neon: hsl(317 100% 54%);
+  --clr-bg: hsl(323 21% 16%);
+}
+
 main{
     min-height: 80vh;
 }
@@ -47,6 +52,13 @@ margin: 0.1rem;
 .carousel a {
   margin: 0 auto;
 }
+
+#pimg {
+  height: 200px;
+  width: 270px;
+  box-shadow: 0 0 0.1em 0.1em var(--clr-neon);
+}
+
 @media (max-width: 900px) {
   .carousel-caption h2 {
     font-size: 2.5vw;
