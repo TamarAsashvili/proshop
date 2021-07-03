@@ -53,11 +53,6 @@ margin: 0.1rem;
   margin: 0 auto;
 }
 
-#pimg {
-  height: 200px;
-  width: 270px;
-  box-shadow: 0 0 0.1em 0.1em var(--clr-neon);
-}
 
 @media (max-width: 900px) {
   .carousel-caption h2 {
